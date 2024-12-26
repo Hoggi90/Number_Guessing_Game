@@ -1,7 +1,7 @@
 import random
 
 correct = "Well Done, You got it correct!"
-higher = "Higher"
+higher = "Higher!"
 lower = "Lower"
 
 random_number = random.randint(1, 100)
@@ -17,4 +17,5 @@ while True:
     elif prompt == str(random_number):
         print(correct)
         break
+
 
