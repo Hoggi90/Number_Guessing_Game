@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Number</h1>
+        <p>I'm thinking of a number between 1 and 100. <br>Can you guess it?</p>
+        <input type="number" id="guessInput" placeholder="Enter your guess">
+        <button id="submitGuess">Submit</button>
+        <p id="message"></p>
+        <button class='tryAgainButton' onclick='window.location.reload()' id="tryAgainButton">Try again?</button>    
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
